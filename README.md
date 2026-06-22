@@ -14,9 +14,17 @@ Build an AI DevOps Engineer that can:
 - suggest Terraform/Kubernetes fixes
 - prepare GitHub pull requests with human approval
 
-## Current Sprint
+## Labs
 
-Sprint 1: Local agent foundation.
+The platform is built up sprint by sprint. Each lab is a self-contained,
+runnable stack with its own README.
+
+| Lab | Sprint | Focus |
+|---|---|---|
+| [lab-01-local-agent-stack](labs/lab-01-local-agent-stack) | 1 | Local agent foundation — Dockerized stack + single LLM-node LangGraph agent |
+| [lab-02-runbook-rag](labs/lab-02-runbook-rag) | 2 | Runbook RAG — Qdrant vector store, Ollama embeddings, grounded answers with sources |
+
+`final-platform/` holds the consolidated platform (work in progress).
 
 ## Stack
 
@@ -30,6 +38,10 @@ Sprint 1: Local agent foundation.
 
 ## Run locally
 
+Each lab runs on its own. Pick one and follow its README:
+
 ```bash
+cd labs/lab-02-runbook-rag
 docker compose up -d --build
 docker exec -it ai-devops-ollama ollama pull llama3.2:3b
+```
