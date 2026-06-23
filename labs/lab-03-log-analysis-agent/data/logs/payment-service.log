@@ -1,0 +1,7 @@
+2026-06-22T10:00:01Z INFO payment-service started successfully
+2026-06-22T10:08:13Z INFO payment-service database query completed duration=120ms
+2026-06-22T10:12:45Z WARN payment-service database query slow duration=1400ms
+2026-06-22T10:13:50Z WARN payment-service database connection pool usage high usage=92%
+2026-06-22T10:14:18Z ERROR payment-service database connection pool exhausted
+2026-06-22T10:14:50Z ERROR payment-service failed to acquire database connection timeout=2000ms
+2026-06-22T10:15:40Z WARN payment-service degraded mode enabled reason=db_pool_exhausted
