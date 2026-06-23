@@ -1,0 +1,5 @@
+2026-06-22T10:00:01Z INFO auth-service started successfully
+2026-06-22T10:04:12Z INFO auth-service token validated user_id=123
+2026-06-22T10:08:01Z INFO auth-service token validated user_id=456
+2026-06-22T10:14:20Z INFO auth-service healthy
+2026-06-22T10:15:20Z INFO auth-service healthy
