@@ -23,6 +23,7 @@ runnable stack with its own README.
 |---|---|---|
 | [lab-01-local-agent-stack](labs/lab-01-local-agent-stack) | 1 | Local agent foundation — Dockerized stack + single LLM-node LangGraph agent |
 | [lab-02-runbook-rag](labs/lab-02-runbook-rag) | 2 | Runbook RAG — Qdrant vector store, Ollama embeddings, grounded answers with sources |
+| [lab-03-log-analysis-agent](labs/lab-03-log-analysis-agent) | 3 | Log analysis — runbook RAG + application log analysis over a LangGraph workflow |
 
 `final-platform/` holds the consolidated platform (work in progress).
 
