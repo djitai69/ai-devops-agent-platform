@@ -1,0 +1,22 @@
+Name:             payment-service-57c99c6d8f-nq9m4
+Namespace:        ai-sre-demo
+Status:           Pending
+Node:             k3d-ai-sre-agent-0
+Controlled By:    ReplicaSet/payment-service-57c99c6d8f
+
+Containers:
+  payment-service:
+    Image:          nginx:1.25
+    State:          Waiting
+      Reason:       CreateContainerConfigError
+    Ready:          False
+    Restart Count:  0
+    Environment:
+      DB_PASSWORD:  <set to the key 'password' in secret 'payment-db-secret'>  Optional: false
+
+Events:
+  Type     Reason     Age   From               Message
+  ----     ------     ----  ----               -------
+  Normal   Scheduled  11m   default-scheduler  Successfully assigned ai-sre-demo/payment-service-57c99c6d8f-nq9m4 to k3d-ai-sre-agent-0
+  Warning  Failed     10m   kubelet            Error: secret "payment-db-secret" not found
+  Warning  Failed     10m   kubelet            Error: couldn't find key password in Secret ai-sre-demo/payment-db-secret
