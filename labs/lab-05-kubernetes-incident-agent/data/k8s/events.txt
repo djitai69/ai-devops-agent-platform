@@ -1,0 +1,6 @@
+LAST SEEN   TYPE      REASON      OBJECT                                  MESSAGE
+11m         Normal    Scheduled   pod/payment-service-57c99c6d8f-nq9m4     Successfully assigned ai-sre-demo/payment-service-57c99c6d8f-nq9m4 to k3d-ai-sre-agent-0
+10m         Warning   Failed      pod/payment-service-57c99c6d8f-nq9m4     Error: secret "payment-db-secret" not found
+10m         Warning   Failed      pod/payment-service-57c99c6d8f-nq9m4     Error: couldn't find key password in Secret ai-sre-demo/payment-db-secret
+9m          Normal    Pulled      pod/checkout-service-6f78f9f7c9-b2x7m    Container image "nginx:1.25" already present on machine
+8m          Normal    Pulled      pod/auth-service-7fd44c9d55-r8x2p        Container image "nginx:1.25" already present on machine
