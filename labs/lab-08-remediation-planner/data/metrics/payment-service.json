@@ -1,0 +1,15 @@
+{
+  "service": "payment-service",
+  "timestamp": "2026-06-22T10:16:00Z",
+  "cpu_usage_percent": 78,
+  "memory_usage_percent": 71,
+  "latency_p95_ms": 1800,
+  "latency_p99_ms": 2600,
+  "error_rate_percent": 6.2,
+  "request_rate_per_second": 95,
+  "db_query_p95_ms": 1400,
+  "db_connection_pool_usage_percent": 92,
+  "db_connection_errors": 17,
+  "pod_restarts": 0,
+  "status": "degraded"
+}
