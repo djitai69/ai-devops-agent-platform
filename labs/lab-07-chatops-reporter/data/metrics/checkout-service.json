@@ -1,0 +1,15 @@
+{
+  "service": "checkout-service",
+  "timestamp": "2026-06-22T10:16:00Z",
+  "cpu_usage_percent": 95,
+  "memory_usage_percent": 62,
+  "latency_p95_ms": 2700,
+  "latency_p99_ms": 3400,
+  "error_rate_percent": 8.5,
+  "request_rate_per_second": 120,
+  "hpa_current_replicas": 4,
+  "hpa_max_replicas": 4,
+  "hpa_cpu_target_percent": 70,
+  "pod_restarts": 0,
+  "status": "degraded"
+}

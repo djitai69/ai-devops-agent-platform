@@ -1,0 +1,4 @@
+node,node_type,cpu_allocatable_millicores,cpu_avg_millicores,memory_allocatable_mb,memory_avg_mb,monthly_cost_usd
+node-a,m6i.large,2000,620,8192,3100,70
+node-b,m6i.large,2000,540,8192,2900,70
+node-c,m6i.large,2000,260,8192,1600,70
