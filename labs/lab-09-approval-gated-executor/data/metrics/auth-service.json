@@ -1,0 +1,12 @@
+{
+  "service": "auth-service",
+  "timestamp": "2026-06-22T10:16:00Z",
+  "cpu_usage_percent": 22,
+  "memory_usage_percent": 35,
+  "latency_p95_ms": 120,
+  "latency_p99_ms": 200,
+  "error_rate_percent": 0.1,
+  "request_rate_per_second": 80,
+  "pod_restarts": 0,
+  "status": "healthy"
+}
