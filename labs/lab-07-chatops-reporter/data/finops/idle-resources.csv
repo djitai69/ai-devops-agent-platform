@@ -1,0 +1,5 @@
+resource_type,name,namespace,age_days,monthly_cost_usd,last_used_days_ago,recommendation
+persistent_volume,old-export-pv,dev,93,18,80,delete after backup validation
+load_balancer,staging-old-api-lb,staging,41,25,38,delete if DNS no longer points to it
+deployment,legacy-worker,dev,120,45,67,scale to zero or remove
+snapshot,db-pre-migration-snapshot,production,65,12,65,review retention and delete if safe
