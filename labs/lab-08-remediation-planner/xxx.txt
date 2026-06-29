@@ -1,0 +1,1 @@
+INFO:     172.22.0.1:60710 - "POST /chat HTTP/1.1" 500 Internal Server Error
