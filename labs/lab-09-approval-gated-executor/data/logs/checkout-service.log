@@ -1,0 +1,7 @@
+2026-06-22T10:00:01Z INFO checkout-service started successfully
+2026-06-22T10:05:10Z INFO checkout-service request completed latency=220ms status=200
+2026-06-22T10:10:33Z WARN checkout-service latency increased latency=950ms status=200
+2026-06-22T10:14:20Z ERROR checkout-service timeout calling payment-service latency=2500ms status=504
+2026-06-22T10:14:44Z ERROR checkout-service timeout calling payment-service latency=2700ms status=504
+2026-06-22T10:15:12Z WARN checkout-service retrying payment-service request attempt=2
+2026-06-22T10:16:01Z ERROR checkout-service request failed reason=downstream_timeout service=payment-service

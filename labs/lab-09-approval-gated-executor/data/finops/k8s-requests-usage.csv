@@ -1,0 +1,6 @@
+namespace,workload,cpu_request_millicores,cpu_avg_millicores,cpu_p95_millicores,memory_request_mb,memory_avg_mb,memory_p95_mb,replicas,monthly_cost_usd
+production,checkout-service,2000,220,420,2048,700,950,4,168
+production,payment-service,1500,780,1100,2048,1450,1750,3,144
+production,auth-service,1000,160,300,1024,300,480,2,56
+staging,recommendation-service,2000,90,180,4096,500,850,2,120
+dev,legacy-worker,1000,20,50,2048,180,300,1,45
